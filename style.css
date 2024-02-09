@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+:root{
+
+    --font-family: 'Dancing Script', cursive;
+    --backgroud: #E78895;
+    --font: #000000;
+    --button: #F3D7CA;
+}
+
+body{
+
+    background-color: var(--backgroud);
+}
+h1{
+
+    font-family: var(--font-family);
+    font-size: 42px;
+    color: var(--font);
+}
+.img-pedido,.img-aceito{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vw;
+    
+}
+.pedido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.pedido__botoes{
+
+    display: flex;
+    margin-top: 1em;
+    
+   
+}
+.pedido__botao{
+
+    display: flex;
+    color: var(--font);
+    margin-left: 1em;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px var(--button);
+    background-color: var(--button);
+    padding: 1em;
+    width: 8em;
+    border-radius: 25px;
+
+   
+   
+    
+}
+.hidden{
+
+    display: none;
+}
