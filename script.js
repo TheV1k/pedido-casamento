@@ -5,8 +5,8 @@ const aceito = document.querySelector('.img-aceito')
 
 
 btnSim.addEventListener('click', () =>{
-    animacao.classList.toggle('hidden')
-    aceito.classList.toggle('hidden')
+    animacao.classList.add('hidden')
+    aceito.classList.remove('hidden')
 })
 
 btnNao.addEventListener('click', ()=>{
